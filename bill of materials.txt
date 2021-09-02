@@ -1,0 +1,51 @@
+BVPbill_materiais
+	------------------------------------------------------------
+Quantidade	Descrição	         Referência
+------------------------------------------------------------
+           
+RESISTORES
+3        	330 Ohm                  R1, R2, R6       
+1        	4.7k Ohm                 R3               
+1        	1k Ohm                   R4    
+1        	LDR                      U3               
+          
+CAPACITORES
+1        	ELETROLIT, 100uF         C1               
+2        	CERAMICO , 33pF          C2, C3
+
+LEDS (DIODOS)
+2       	LED AZUL                 LED1, LED2       
+
+CIRCUITOS INTEGRADOS E DISPLAY
+1        	LCD_DISPLAY_16x2         U1
+1        	PIC, PIC16F84A           U2
+1        	REGULADOR LM7805         U4
+OUTROS
+
+1        	PUSH BUTTON,NO           J1
+1	 	BOTÃO LIGA/DESL	  J2
+1        	CRISTAL	4Mhz		 XTAL
+2        	BATERIAS, 9 V            V1, V2
+                 
+------------------------------------------------------------
+
+B1	9V	
+B2	9V	
+C1	100uF	
+C2	33pF	
+C3	33pF	
+J1		
+J2		
+J3		
+LED1		
+LED2		
+R1	330	
+R2	330	
+R3	1K	
+R4	4.7k	
+R5	330	
+U2	PIC16F84	
+U4	LM7805	
+XT	4MHz	
+LCD
+LDR
