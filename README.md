@@ -24,8 +24,9 @@ De forma resumida, este projeto foi realizado no ano de 2008 com objetivo de uti
 ## Pasta "Img"
 - Possui imagens do projeto: esquemáticos, PCB, plano de uso da tela de LCD, e até um protótipo de 'holder' para o projeto feito no **AutoCAD**.
 #### Circuito Final
-
 ![circuito final](img/circuito_final.JPG)
-![](imagens/capa.gif)
-
 _além do circuito final há outros arquivos relevantes na pasta_.
+
+#### Projeto em Funcionamento
+![teste](img/testes_bsp.gif)
+
