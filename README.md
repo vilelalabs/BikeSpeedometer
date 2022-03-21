@@ -11,7 +11,7 @@ Trata-se de um **velocímetro para bicicleta** que utiliza de um sensor na roda 
 - **BVP**: arquivo para o MultiSIM10 contendo o esquemático do projeto (há a imagem do mesmo no final deste README).
 
 ## Motivação
-De forma resumida, este projeto foi realizado no ano de 2008 com objetivo de utilizar conhecimentos adquiridos durante um curso para pogramação assembly em microcontroladores PIC. Para isso a idéia foi realizar um projeto pessoal de um **velocímetro para bicicleta**.
+De forma resumida, este projeto foi realizado no ano de 2008 com objetivo de utilizar conhecimentos adquiridos durante um curso para programação assembly em microcontroladores PIC. Para isso a idéia foi realizar um projeto pessoal de um **velocímetro para bicicleta**.
 
 ## Pasta "Docs"
 - Aqui há arquivos que guiaram o projeto, mas trata-se apenas de um **esboço**, não havendo preocupação em seguir normas ABNT e afins.
