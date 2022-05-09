@@ -1,32 +1,39 @@
 # BikeSpeedometer
-An old project of a speedometer written in assembly for PIC 16F84A
+An old project of a speedometer written in assembly for PIC 16F84A.
 
-## Projeto
-Trata-se de um **velocímetro para bicicleta** que utiliza de um sensor na roda da bicicleta e um LCD de 2 linhas para exibir a informação obtida. Para isso foi utilizado como cérebro do projeto um **PIC 16F84A**.
+## Project
 
-#### Arquivos
-- **prepara.asm**: funciona como um header para o arquivo contendo o loop principal
-- **main.asm**: possui o loop principal, coordenando as funcionalidades criadas no arquivo _prepara.asm_.
-- **bill of materials**: lista de materiais para construção do projeto
-- **BVP**: arquivo para o MultiSIM10 contendo o esquemático do projeto (há a imagem do mesmo no final deste README).
+It's a **bicycle speedometer** that has a sensor at the bicycle wheel  and a 2 lines LCD display to show the obtained information. The "brain" of this project is a **PIC 16F84A** microcontroller.
 
-## Motivação
-De forma resumida, este projeto foi realizado no ano de 2008 com objetivo de utilizar conhecimentos adquiridos durante um curso para programação assembly em microcontroladores PIC. Para isso a idéia foi realizar um projeto pessoal de um **velocímetro para bicicleta**.
+## Files
 
-## Pasta "Docs"
-- Aqui há arquivos que guiaram o projeto, mas trata-se apenas de um **esboço**, não havendo preocupação em seguir normas ABNT e afins.
-- Não são documentos revisados, por tanto podem haver partes incompletas, erros de digitação, entre outros, mas que não prejudicam o entendimento dos mesmos.
-#### Arquivos Relevantes
-- O arquivo **Documento Geral do Projeto Bike Velocimeter.doc** contém todo o escopo do projeto sendo um ponto de partida para entendimento do mesmo.
-- O arquivo **Software Doc to Bike Velocimeter Project.doc** contém todo o código desenvolvido em assembly com algumas notas adicionais. Nele também são encontradas partes separadas dos códigos desenvolvidos para solução de cada problema encontrado durante a resolução do projeto.
--  - O arquivo **mapeamento da RAM.xls** é uma planilha com a visão geral do mapeamento da RAM  do **PIC16f84A** utilizado no projeto.
+- **prepara.asm**: works as a header file for tha main loop file.
+- **main.asm**: has the main loop, coordinating the functions created in _prepara.asm_.
+- **bill of materials**: materials and components for building the project.
+- **BVP**: MultiSIM (ver. 10) file containing the schematic. (there is an image below in this file).
 
-## Pasta "Img"
-- Possui imagens do projeto: esquemáticos, PCB, plano de uso da tela de LCD, e até um protótipo de 'holder' para o projeto feito no **AutoCAD**.
-#### Circuito Final
-![circuito final](img/circuito_final.JPG)
-_além do circuito final há outros arquivos relevantes na pasta_.
 
-#### Projeto em Funcionamento
+## Motivation
+In short, this project was build in 2008 with the goal on using acquired knowledges during an assembly programming for PIC microcontroller course. To get this, my ideia was to make a personal project of this bicycle speedometer.
+
+## "Docs" folder
+- Here we have some files that guided the project, but its just a scratch not worrying about following technical document rules or something else.
+
+- Aren't revised documents, so can be found some incomplete parts, typo errors and so on, but all of this doesn't mess its understanding.
+
+## Relevant files
+- The file **"Documento Geral do Projeto Bike Velocimeter.doc"** (General document of Bike Velocimeter project) contains whole view of the project, it's a good start to understand it.
+- The file **"Software Doc to Bike Velocimeter Project.doc"**  contains all the assembly code developed with some additional notes. On this, you can find separated parts of the code developed to solve each problem found during the project resolution.
+- The file  **"mapeamento da RAM.xls"** (RAM mapping) is a spreadsheet with the general view of RAM mapping of **PIC16F84A** used on this project.
+
+
+## "Img" folder
+- It has images of the project: electronic schematics, PCB, LCD display use plan, a CAD package for the project made using **AutoCAD** software.
+
+#### Final circuit
+![Final circuit](img/circuito_final.JPG)
+
+_besides final circuit it has other relevant files in this folder_
+
+#### Working project
 ![teste](img/testes_bsp.gif)
-
